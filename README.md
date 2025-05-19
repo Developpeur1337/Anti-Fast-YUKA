@@ -7,7 +7,7 @@
 **Anti-Fast YUKA** est un bot Discord conçu pour expulser les DC / comptes créés trop récemment.
 Il permet aux administrateurs et propriétaires du serveur de choisir un nombre de jours pour éviter d'être expulser et d'être considéré comme double compte.
 
-Le bot utilise exclusivement des **commandes slash (full slash commands) pour une meilleure intégration et ergonomie.
+Le bot utilise exclusivement des **commandes slash** (full slash commands) pour une meilleure intégration et ergonomie.
 
 ---
 
