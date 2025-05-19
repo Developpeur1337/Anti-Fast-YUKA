@@ -14,10 +14,8 @@ Le bot utilise exclusivement des **commandes slash** (full slash commands) pour 
 ## Fonctionnalités principales
 
 - Ajouter une limite de jours minimum pour accéder au serveur et donc avoir une protection supplémentaire contre les doubles comptes / trolleurs
-- Afficher les paramètres utilisés pour l'anti
+- Afficher les paramètres utilisés pour l'anti-dc
 - Commandes slash intuitives pour une gestion simple et rapide
-
---
 
 ## Crédits & Contact
 Développé par Developpeur1337
