@@ -5,7 +5,12 @@ const path = require("path");
 module.exports = {
     name: "settings",
     description: "Affiche les paramètres de l'antiraid.",
+    aliases: [],
+    permissions: [],
+    guildOwnerOnly: false,
     botOwnerOnly: true,
+    botOwner: false,
+    wlOnly: false,
     async executeSlash(client, interaction) {
         const configPath = path.join(__dirname, "../config.json");
         const config = JSON.parse(fs.readFileSync(configPath, "utf-8"));
