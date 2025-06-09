@@ -5,7 +5,12 @@ const path = require("path");
 module.exports = {
     name: "antidc",
     description: "Kick automatiquement les nouveaux comptes.",
+    aliases: [],
+    permissions: [],
+    guildOwnerOnly: false,
     botOwnerOnly: true,
+    botOwner: false,
+    wlOnly: false,
     async executeSlash(client, interaction) {
         const configPath = path.join(__dirname, "../config.json");
         let config = JSON.parse(fs.readFileSync(configPath, "utf-8"));
